@@ -25,7 +25,7 @@ class Produto{
     }
 
     salvar(produto){    
-        this.arrayProdutos.push(produto)
+        this.arrayProdutos.push(produto)    
         this.id++
     }
 
