@@ -1,0 +1,116 @@
+body{   
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+menu{   
+    background-color: #76BEBE;
+    color: #F5F5F5;
+    font-style: bold;
+    font-size: 20px;
+    line-height: 100%;
+    line-height: 38px;
+    display:flex;
+    text-align: center;
+    flex-direction: row ;
+    justify-content:space-evenly;
+
+}
+
+header{    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 64px;
+    line-height: 75px;
+    line-height: 100%;
+    color: #CF509C;
+    gap: 100px;
+
+}
+
+section{  
+  display: grid;
+  grid-auto-flow: column; 
+  background-color: rgb(227, 228, 219);
+  height: 500px;
+    
+  
+
+}
+
+#container,button{ 
+    justify-content: center;
+}
+
+#container2{ 
+    margin-top: 30px;
+}
+
+form{   
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 40px;
+    padding-left: 107px;
+    margin-right: 0;
+    font-size: 28px;
+    Line-height: 34px ;
+    Line-height: 100% ;
+}
+
+input{  
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+}
+
+button{   
+    background-color: #76BEBE;
+    border-radius: 5px;
+    color: aliceblue;
+    Font-style:Bold;
+    font-size: 39px;
+    Font-size:39px;
+    Line-height:46px;
+    Line-height:100%;
+    border: none;
+    width: 306px;
+    height: 62px;
+     
+}
+
+#botao{ 
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#container2{  
+    display: grid; 
+    grid-template-rows: min-content ;
+    align-items: center;
+ 
+    Font-size:28px;
+    Line-height:34px;
+    Line-height:100%;
+    color: beige;
+    border-collapse: 1px;
+    
+    
+}
+
+table ,tr,th{   
+    border: solid 1px white;
+    background-color: grey;
+    border-collapse: collapse;
+   
+
+}
+
+tr ,th {    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
